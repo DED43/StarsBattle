@@ -31,7 +31,7 @@ RESOURCES += \
     resources.qrc
 
 # Extra optimization flags
-QMAKE_CXXFLAGS += -msse -mfpmath=sse -ffast-math
+QMAKE_CXXFLAGS += -O2
 
 LIBS +=  -L$$PWD/DS/ -lDS
 
